@@ -92,3 +92,18 @@ p {
     text-align: center;
   }
 }
+.navbar-light {
+  background-color: white;
+}
+.navbar-light .navbar-brand {
+  color: var(--branding-color);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--secondary-color);
+}
+.navbar-light .navbar-toggler {
+  color: var(--secondary-color);
+}
