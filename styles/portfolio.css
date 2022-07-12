@@ -138,3 +138,7 @@ p {
 .navbar-light .navbar-toggler {
   color: var(--secondary-color);
 }
+
+.img-fluid.mb-3.rounded {
+  width: 150%;
+}
