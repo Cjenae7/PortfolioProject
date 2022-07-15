@@ -30,6 +30,10 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+h4 {
+  font-size: 48px;
+  color: white;
+}
 .img-fluid {
   border-radius: 10px;
 }
@@ -111,6 +115,9 @@ p {
   h2 {
     font-size: 44px;
   }
+  h4 {
+    font-size: 26px;
+  }
   .hero {
     padding: 80px 20px;
   }
@@ -122,22 +129,6 @@ p {
     text-align: center;
     padding: 0;
   }
-}
-
-.navbar-light {
-  background-color: white;
-}
-.navbar-light .navbar-brand {
-  color: var(--branding-color);
-}
-.navbar-light .navbar-nav .nav-link {
-  color: var(--secondary-color);
-}
-.navbar-light .navbar-nav .nav-link.active {
-  color: var(--secondary-color);
-}
-.navbar-light .navbar-toggler {
-  color: var(--secondary-color);
 }
 
 .img-fluid.mb-3.rounded {
@@ -165,5 +156,40 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-links {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+footer .email-links:hover {
   color: var(--branding-color);
 }
