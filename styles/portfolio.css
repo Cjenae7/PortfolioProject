@@ -23,12 +23,16 @@ h2 {
   font: size 64px;
   color: white;
 }
-h3 {
+.Home,
+.Work,
+.Contact,
+.About {
   color: white;
   font-size: 48px;
 }
+
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 h4 {
@@ -74,20 +78,27 @@ h4 {
   font-family: var(--default-font-family);
 }
 .content p {
-  font: size 14px;
+  font-size: 14px;
 }
 .content {
   margin: 30px;
 }
-
-.btn-branding {
-  background: var(--branding-color);
+.text-muted {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+.btn-branding,
+.btn-branding.mt-3 {
+  background-color: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
+
 .btn-branding-outline {
   background: var(--branding-color);
   color: white;
@@ -96,6 +107,9 @@ h4 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.mb-3 {
+  color: white;
 }
 .mb-5 {
   font-size: 35px;
@@ -164,7 +178,7 @@ footer .social-links a {
   color: var(--branding-color);
   background: var(--secondary-color);
   padding: 10px 14px;
-  font-size: 18px;
+  font-size: 24px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
